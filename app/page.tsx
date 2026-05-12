@@ -104,9 +104,10 @@ export default function Home() {
         <h2 className="mb-10 text-4xl font-bold">Contacto</h2>
 
   <form
-  action="https://formsubmit.co/walidgamer077@gmail.com"
+ action="https://formsubmit.co/ajax/walidgamer077@gmail.com"
 
   method="POST"
+  target="_blank"
   className="mx-auto max-w-2xl rounded-3xl border border-white/10 bg-white/5 p-8"
  >
           <input
