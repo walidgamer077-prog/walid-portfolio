@@ -103,7 +103,12 @@ export default function Home() {
       <section className="mx-auto max-w-6xl px-6 py-24">
         <h2 className="mb-10 text-4xl font-bold">Contacto</h2>
 
-        <form className="max-w-2xl rounded-3xl border border-white/10 bg-white/5 p-8">
+  <form
+  action="https://formsubmit.co/walidgamer077@gmail.com"
+
+  method="POST"
+  className="mx-auto max-w-2xl rounded-3xl border border-white/10 bg-white/5 p-8"
+ >
           <input
             className="mb-4 w-full rounded-2xl border border-white/10 bg-black px-5 py-4 text-white outline-none"
             placeholder="Nombre"
