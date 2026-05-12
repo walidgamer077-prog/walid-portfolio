@@ -110,16 +110,20 @@ export default function Home() {
   className="mx-auto max-w-2xl rounded-3xl border border-white/10 bg-white/5 p-8"
  >
           <input
-            className="mb-4 w-full rounded-2xl border border-white/10 bg-black px-5 py-4 text-white outline-none"
+           name="nombre"
+            
+           className="mb-4 w-full rounded-2xl border border-white/10 bg-black px-5 py-4 text-white outline-none"
             placeholder="Nombre"
           />
 
           <input
+          name="email"
             className="mb-4 w-full rounded-2xl border border-white/10 bg-black px-5 py-4 text-white outline-none"
             placeholder="Email"
           />
 
           <textarea
+          name="mensaje"
             className="mb-4 w-full rounded-2xl border border-white/10 bg-black px-5 py-4 text-white outline-none"
             placeholder="Mensaje"
             rows={5}
